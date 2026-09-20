@@ -1,0 +1,58 @@
+{
+  "execution_status": "NOT_RUN",
+  "capture_method": "Owner will run six cases in their existing TypeSafe Playground and return outputs.",
+  "requested_model": "jev-1.13.0",
+  "records": [
+    {
+      "case_id": "P01_reply_mismatch",
+      "execution_status": "NOT_RUN",
+      "actual_model": null,
+      "input_match_verified": false,
+      "response": null,
+      "error": null
+    },
+    {
+      "case_id": "P02_reply_alternative",
+      "execution_status": "NOT_RUN",
+      "actual_model": null,
+      "input_match_verified": false,
+      "response": null,
+      "error": null
+    },
+    {
+      "case_id": "P03_rag_intent",
+      "execution_status": "NOT_RUN",
+      "actual_model": null,
+      "input_match_verified": false,
+      "response": null,
+      "error": null
+    },
+    {
+      "case_id": "P04_rag_alternative",
+      "execution_status": "NOT_RUN",
+      "actual_model": null,
+      "input_match_verified": false,
+      "response": null,
+      "error": null
+    },
+    {
+      "case_id": "P05_source_missing",
+      "execution_status": "NOT_RUN",
+      "actual_model": null,
+      "input_match_verified": false,
+      "response": null,
+      "error": null
+    },
+    {
+      "case_id": "P06_learning_ambiguity",
+      "execution_status": "NOT_RUN",
+      "actual_model": null,
+      "input_match_verified": false,
+      "response": null,
+      "error": null
+    }
+  ],
+  "base_agreement_fraction": null,
+  "production_accuracy": null,
+  "paid_api_calls": 0
+}
