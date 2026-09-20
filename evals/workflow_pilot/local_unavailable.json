@@ -1,0 +1,188 @@
+{
+  "status": "NOT_RUN",
+  "scope": "EVALUATION_ONLY_NO_ACTION_AUTHORITY",
+  "sdk_commit": "d113dca2512fb3eaca313534bc54c7162d87c1d4",
+  "model_repo": "convaiinnovations/laya",
+  "model_revision": "1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+  "platform": {
+    "python": "3.12.14",
+    "system": "Linux",
+    "machine": "x86_64",
+    "cpu_count": 9
+  },
+  "dependencies": {},
+  "model_token_count_status": "NOT_MEASURED",
+  "rows": [
+    {
+      "case_id": "P01_reply_mismatch",
+      "input_index": 0,
+      "execution_status": "NOT_RUN",
+      "model_input_tokens": null,
+      "model_input_tokens_status": "NOT_MEASURED",
+      "raw_response": null,
+      "local_inference_ms": null,
+      "correctness": "NOT_ADJUDICATED",
+      "candidate_sha256": "d4a613f7c9ab434f6775d7382b513c0ffe1fad0884ed2a7c69c1d8f1015cb14d",
+      "request_sha256": "c7b3e133f99c927245f182250a653a3b9937d552d2fb2b82d69a5cb8094ca713",
+      "option_order": [
+        "COMPLIES",
+        "VIOLATES",
+        "UNDECIDABLE"
+      ],
+      "review_status": "UNAVAILABLE",
+      "reason": "MISSING_DEPENDENCIES"
+    },
+    {
+      "case_id": "P02_reply_alternative",
+      "input_index": 1,
+      "execution_status": "NOT_RUN",
+      "model_input_tokens": null,
+      "model_input_tokens_status": "NOT_MEASURED",
+      "raw_response": null,
+      "local_inference_ms": null,
+      "correctness": "NOT_ADJUDICATED",
+      "candidate_sha256": "5f56a811c16d5471cfc1e7accc50a7eee93a3b9919b3c25bceea135758b66dbb",
+      "request_sha256": "05a078ffcd989954e79e3b5584513f3ad36732d450e5abc1cc44795468de4837",
+      "option_order": [
+        "COMPLIES",
+        "VIOLATES",
+        "UNDECIDABLE"
+      ],
+      "review_status": "UNAVAILABLE",
+      "reason": "MISSING_DEPENDENCIES"
+    },
+    {
+      "case_id": "P03_rag_intent",
+      "input_index": 2,
+      "execution_status": "NOT_RUN",
+      "model_input_tokens": null,
+      "model_input_tokens_status": "NOT_MEASURED",
+      "raw_response": null,
+      "local_inference_ms": null,
+      "correctness": "NOT_ADJUDICATED",
+      "candidate_sha256": "33af44923b6e270ad01f28c4d1ad41767b65b3d627e40817b4ca0d34d16eee85",
+      "request_sha256": "70e1335e36134b1520869bbc80c588993fa900da83b0fd94d7caeea9ff38bb93",
+      "option_order": [
+        "COMPLIES",
+        "VIOLATES",
+        "UNDECIDABLE"
+      ],
+      "review_status": "UNAVAILABLE",
+      "reason": "MISSING_DEPENDENCIES"
+    },
+    {
+      "case_id": "P04_rag_alternative",
+      "input_index": 3,
+      "execution_status": "NOT_RUN",
+      "model_input_tokens": null,
+      "model_input_tokens_status": "NOT_MEASURED",
+      "raw_response": null,
+      "local_inference_ms": null,
+      "correctness": "NOT_ADJUDICATED",
+      "candidate_sha256": "ed634c9657e4fe721ff2502e7d2a540037cbbb049c1005340f0e1b46803b2aea",
+      "request_sha256": "39d176aca050a27388d39ea027761512315d579f2499192b1b69282624c663d5",
+      "option_order": [
+        "COMPLIES",
+        "VIOLATES",
+        "UNDECIDABLE"
+      ],
+      "review_status": "UNAVAILABLE",
+      "reason": "MISSING_DEPENDENCIES"
+    },
+    {
+      "case_id": "P05_source_missing",
+      "input_index": 4,
+      "execution_status": "NOT_RUN",
+      "model_input_tokens": null,
+      "model_input_tokens_status": "NOT_MEASURED",
+      "raw_response": null,
+      "local_inference_ms": null,
+      "correctness": "NOT_ADJUDICATED",
+      "candidate_sha256": "437ecd943f169161f737262d6fda905419328977f46e5829f1dc070aba1c9aae",
+      "request_sha256": "ba2c68df1506a075f97effd9d740820fceeaecb0d2cbfb1a27c89ec5d275ba93",
+      "option_order": [
+        "COMPLIES",
+        "VIOLATES",
+        "UNDECIDABLE"
+      ],
+      "review_status": "UNAVAILABLE",
+      "reason": "MISSING_DEPENDENCIES"
+    },
+    {
+      "case_id": "P06_learning_ambiguity",
+      "input_index": 5,
+      "execution_status": "NOT_RUN",
+      "model_input_tokens": null,
+      "model_input_tokens_status": "NOT_MEASURED",
+      "raw_response": null,
+      "local_inference_ms": null,
+      "correctness": "NOT_ADJUDICATED",
+      "candidate_sha256": "af0e9676ca7f0700f87acf9771ef46389537d6621944d12f957ca56c91842c3d",
+      "request_sha256": "716570059bec153e46d1e00f6e530861f5a3cde810c9f140070e248b80a3902b",
+      "option_order": [
+        "COMPLIES",
+        "VIOLATES",
+        "UNDECIDABLE"
+      ],
+      "review_status": "UNAVAILABLE",
+      "reason": "MISSING_DEPENDENCIES"
+    },
+    {
+      "case_id": "P01_reply_mismatch_rotated",
+      "input_index": 6,
+      "execution_status": "NOT_RUN",
+      "model_input_tokens": null,
+      "model_input_tokens_status": "NOT_MEASURED",
+      "raw_response": null,
+      "local_inference_ms": null,
+      "correctness": "NOT_ADJUDICATED",
+      "candidate_sha256": "d4a613f7c9ab434f6775d7382b513c0ffe1fad0884ed2a7c69c1d8f1015cb14d",
+      "request_sha256": "b6d286ec407a14c8003dd98e9215635d392f4de0a5547900d29f5d843984a043",
+      "option_order": [
+        "VIOLATES",
+        "UNDECIDABLE",
+        "COMPLIES"
+      ],
+      "review_status": "UNAVAILABLE",
+      "reason": "MISSING_DEPENDENCIES"
+    },
+    {
+      "case_id": "P03_rag_intent_rotated",
+      "input_index": 7,
+      "execution_status": "NOT_RUN",
+      "model_input_tokens": null,
+      "model_input_tokens_status": "NOT_MEASURED",
+      "raw_response": null,
+      "local_inference_ms": null,
+      "correctness": "NOT_ADJUDICATED",
+      "candidate_sha256": "33af44923b6e270ad01f28c4d1ad41767b65b3d627e40817b4ca0d34d16eee85",
+      "request_sha256": "95be10abf7854a36cf111a249f1549a49455dfd989a62fce9f407579b8d874a1",
+      "option_order": [
+        "VIOLATES",
+        "UNDECIDABLE",
+        "COMPLIES"
+      ],
+      "review_status": "UNAVAILABLE",
+      "reason": "MISSING_DEPENDENCIES"
+    }
+  ],
+  "errors": [
+    {
+      "reason": "MISSING_DEPENDENCIES",
+      "details": {
+        "modules": [
+          "torch",
+          "transformers",
+          "huggingface_hub",
+          "safetensors"
+        ]
+      }
+    }
+  ],
+  "correctness": "NOT_ADJUDICATED_REFERENCES_NOT_READ",
+  "confidence_definition": "Choice: 1 - Shannon_entropy(probabilities) / log(option_count)",
+  "offline_scope": "HF/Transformers offline flags; no OS-level egress sandbox installed",
+  "cases_file_sha256": "0f6f9c515e15278c35b8154f3342d3b926776e0495ee281430749200e1ad66cc",
+  "executed_cases": 0,
+  "peak_rss_bytes": 16371712
+}

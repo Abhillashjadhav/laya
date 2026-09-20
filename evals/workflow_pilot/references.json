@@ -1,0 +1,41 @@
+{
+  "purpose": "Public diagnostic labels, not a held-out benchmark. Base labels were proposed before these hosted runs. Never send labels to the model.",
+  "references": [
+    {
+      "case_id": "P01_reply_mismatch",
+      "label": "VIOLATES",
+      "reference_status": "AUTHOR_PROPOSED_NOT_INDEPENDENT_GOLD",
+      "reason": "Reply accepts Friday while explanation claims refusal before Monday."
+    },
+    {
+      "case_id": "P02_reply_alternative",
+      "label": "COMPLIES",
+      "reference_status": "AUTHOR_PROPOSED_NOT_INDEPENDENT_GOLD",
+      "reason": "Both reply and explanation set Monday as the earliest start."
+    },
+    {
+      "case_id": "P03_rag_intent",
+      "label": "VIOLATES",
+      "reference_status": "AUTHOR_PROPOSED_NOT_INDEPENDENT_GOLD",
+      "reason": "User excludes heavy blankets; selected Item A is explicitly heavyweight."
+    },
+    {
+      "case_id": "P04_rag_alternative",
+      "label": "COMPLIES",
+      "reference_status": "AUTHOR_PROPOSED_NOT_INDEPENDENT_GOLD",
+      "reason": "Item B is explicitly warm and lightweight, matching both constraints."
+    },
+    {
+      "case_id": "P05_source_missing",
+      "label": "UNDECIDABLE",
+      "reference_status": "AUTHOR_PROPOSED_NOT_INDEPENDENT_GOLD",
+      "reason": "The supplied source is null; the question explicitly requires abstention."
+    },
+    {
+      "case_id": "P06_learning_ambiguity",
+      "label": "VIOLATES",
+      "reference_status": "AUTHOR_PROPOSED_NOT_INDEPENDENT_GOLD",
+      "reason": "Both cows and goats produce milk, but single-answer key accepts only Cow."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "scope": "DESCRIPTIVE_SMOKE_TEST_NOT_ESTIMATED_PRODUCTION_ACCURACY",
+  "unique_base_cases": 6,
+  "base_reference_agreements": 3,
+  "base_agreement_fraction": 0.5,
+  "base_false_approvals": 3,
+  "perturbation_runs": 2,
+  "human_time_saving": "NOT_MEASURED",
+  "automatic_release_authority": false,
+  "rows": [
+    {
+      "case_id": "P01_reply_mismatch",
+      "base_case_id": "P01_reply_mismatch",
+      "is_perturbation": false,
+      "provisional_reference": "VIOLATES",
+      "choice": "COMPLIES",
+      "agrees_with_reference": false,
+      "false_approval": true,
+      "reference_status": "AUTHOR_PROPOSED_NOT_INDEPENDENT_GOLD",
+      "confidence": 0.1367,
+      "response_errors": []
+    },
+    {
+      "case_id": "P02_reply_alternative",
+      "base_case_id": "P02_reply_alternative",
+      "is_perturbation": false,
+      "provisional_reference": "COMPLIES",
+      "choice": "COMPLIES",
+      "agrees_with_reference": true,
+      "false_approval": false,
+      "reference_status": "AUTHOR_PROPOSED_NOT_INDEPENDENT_GOLD",
+      "confidence": 0.4475,
+      "response_errors": []
+    },
+    {
+      "case_id": "P03_rag_intent",
+      "base_case_id": "P03_rag_intent",
+      "is_perturbation": false,
+      "provisional_reference": "VIOLATES",
+      "choice": "COMPLIES",
+      "agrees_with_reference": false,
+      "false_approval": true,
+      "reference_status": "AUTHOR_PROPOSED_NOT_INDEPENDENT_GOLD",
+      "confidence": 0.2143,
+      "response_errors": []
+    },
+    {
+      "case_id": "P04_rag_alternative",
+      "base_case_id": "P04_rag_alternative",
+      "is_perturbation": false,
+      "provisional_reference": "COMPLIES",
+      "choice": "COMPLIES",
+      "agrees_with_reference": true,
+      "false_approval": false,
+      "reference_status": "AUTHOR_PROPOSED_NOT_INDEPENDENT_GOLD",
+      "confidence": 0.5234,
+      "response_errors": []
+    },
+    {
+      "case_id": "P05_source_missing",
+      "base_case_id": "P05_source_missing",
+      "is_perturbation": false,
+      "provisional_reference": "UNDECIDABLE",
+      "choice": "UNDECIDABLE",
+      "agrees_with_reference": true,
+      "false_approval": false,
+      "reference_status": "AUTHOR_PROPOSED_NOT_INDEPENDENT_GOLD",
+      "confidence": 0.1568,
+      "response_errors": []
+    },
+    {
+      "case_id": "P06_learning_ambiguity",
+      "base_case_id": "P06_learning_ambiguity",
+      "is_perturbation": false,
+      "provisional_reference": "VIOLATES",
+      "choice": "COMPLIES",
+      "agrees_with_reference": false,
+      "false_approval": true,
+      "reference_status": "AUTHOR_PROPOSED_NOT_INDEPENDENT_GOLD",
+      "confidence": 0.1617,
+      "response_errors": []
+    },
+    {
+      "case_id": "P01_reply_mismatch_rotated",
+      "base_case_id": "P01_reply_mismatch",
+      "is_perturbation": true,
+      "provisional_reference": "VIOLATES",
+      "choice": "COMPLIES",
+      "agrees_with_reference": false,
+      "false_approval": true,
+      "reference_status": "AUTHOR_PROPOSED_NOT_INDEPENDENT_GOLD",
+      "confidence": 0.121,
+      "response_errors": []
+    },
+    {
+      "case_id": "P03_rag_intent_rotated",
+      "base_case_id": "P03_rag_intent",
+      "is_perturbation": true,
+      "provisional_reference": "VIOLATES",
+      "choice": "COMPLIES",
+      "agrees_with_reference": false,
+      "false_approval": true,
+      "reference_status": "AUTHOR_PROPOSED_NOT_INDEPENDENT_GOLD",
+      "confidence": 0.1398,
+      "response_errors": []
+    }
+  ]
+}

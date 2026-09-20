@@ -1,0 +1,22 @@
+{
+  "metric": "owner hands-on QA minutes divided by total owner hands-on work minutes, same outcome set and time window",
+  "reported_baseline_share": {
+    "lower": 0.6,
+    "upper": 0.7,
+    "source": "user estimate; not an instrumented baseline"
+  },
+  "target_share": 0.05,
+  "measurements": {
+    "window": null,
+    "accepted_outputs": null,
+    "owner_qa_minutes": null,
+    "total_owner_work_minutes": null,
+    "labeling_and_setup_minutes": null,
+    "maintenance_minutes": null,
+    "false_alarm_review_minutes": null,
+    "escaped_material_defects": null,
+    "valid_outputs_unnecessarily_blocked": null
+  },
+  "time_saving_demonstrated": false,
+  "note": "Model confidence/accuracy is separate. Record absolute all-in human minutes per accepted outcome as well as QA share; do not omit setup or move QA into another category."
+}
